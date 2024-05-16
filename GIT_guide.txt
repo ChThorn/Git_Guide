@@ -25,6 +25,24 @@ git checkout -b createnamebranch
 Also, to check status, we can use:
 git status
 
+--------------------
+# Create a version
+git init
+git status
+git add .
+git commit -m "Message"
+
+# View Previous Versions
+git log --all --graph
+git checkout <commit_hash>
+git checkout <branch_name>
+
+# Restore to Previous Versions
+git checkout <hash|branch> <file|folder>
+git commit -m "Message"
+
+
+
 
 ** Upudate new text here
 
