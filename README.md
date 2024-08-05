@@ -28,16 +28,22 @@ Also, to check status, we can use:
 
 --------------------
 # Create a version
-git init
-git status
-git add .
-git commit -m "Message"
+`git init`
+
+`git status`
+
+`git add .`
+
+`git commit -m "Message"`
 
 # View Previous Versions
-`git log --all --graph
-git checkout <commit_hash>
-git checkout <branch_name>`
+`git log --all --graph`
+
+`git checkout <commit_hash>`
+
+`git checkout <branch_name>`
 
 # Restore to Previous Versions
-`git checkout <hash|branch> <file|folder>
-git commit -m "Message"`
+`git checkout <hash|branch> <file|folder>`
+
+`git commit -m "Message"`
