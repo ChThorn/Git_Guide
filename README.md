@@ -15,7 +15,7 @@ First we have to run in termin of vscode as this:
 
 ### To remote to github repo:
 
-git remote add origin https://github.com/yourrepo
+`git remote add origin https://github.com/yourrepo`
 
 `git push -u origin master`
 
